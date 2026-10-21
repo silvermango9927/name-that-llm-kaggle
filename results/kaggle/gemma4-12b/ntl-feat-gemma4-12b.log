@@ -1,0 +1,46 @@
+[{"stream_name":"stdout","time":30.201735324,"data":"model /kaggle/input/models/google/gemma-4/transformers/gemma-4-12b/2 layers 48 -\u003e keep 28 gpus 2\n"}
+,{"stream_name":"stderr","time":67.209468069,"data":"\rLoading weights:   0%|          | 0/401 [00:00\u003c?, ?it/s]\rLoading weights:   1%|          | 3/401 [00:16\u003c35:56,  5.42s/it]\rLoading weights:  43%|████▎     | 173/401 [00:17\u003c00:16, 13.82it/s]\rLoading weights:  47%|████▋     | 189/401 [00:18\u003c00:15, 14.03it/s]\rLoading weights:  50%|████▉     | 200/401 [00:18\u003c00:13, 14.74it/s]\rLoading weights:  51%|█████▏    | 206/401 [00:19\u003c00:12, 15.15it/s]\rLoading weights:  53%|█████▎    | 214/401 [00:19\u003c00:13, 14.14it/s]\rLoading weights:  54%|█████▍    | 217/401 [00:19\u003c00:12, 14.56it/s]\rLoading weights:  57%|█████▋    | 228/401 [00:20\u003c00:11, 14.92it/s]\rLoading weights:  58%|█████▊    | 231/401 [00:20\u003c00:11, 15.05it/s]\rLoading weights:  60%|██████    | 242/401 [00:21\u003c00:10, 15.37it/s]\rLoading weights:  61%|██████    | 245/401 [00:21\u003c00:09, 16.13it/s]\rLoading weights:  63%|██████▎   | 252/401 [00:21\u003c00:07, 19.22it/s]\rLoading weights:  64%|██████▎   | 255/401 [00:22\u003c00:11, 13.24it/s]\rLoading weights:  67%|██████▋   | 269/401 [00:23\u003c00:09, 14.50it/s]\rLoading weights:  71%|███████   | 283/401 [00:24\u003c00:07, 15.65it/s]\rLoading weights:  71%|███████   | 285/401 [00:24\u003c00:07, 15.61it/s]\rLoading weights:  74%|███████▍  | 297/401 [00:25\u003c00:07, 14.38it/s]\rLoading weights:  78%|███████▊  | 311/401 [00:26\u003c00:06, 14.03it/s]\rLoading weights:  81%|████████  | 325/401 [00:27\u003c00:05, 14.58it/s]\rLoading weights:  82%|████████▏ | 327/401 [00:27\u003c00:05, 13.78it/s]\rLoading weights:  84%|████████▎ | 335/401 [00:27\u003c00:04, 16.22it/s]\rLoading weights:  84%|████████▍ | 338/401 [00:28\u003c00:04, 13.45it/s]\rLoading weights:  85%|████████▍ | 340/401 [00:28\u003c00:04, 12.46it/s]\rLoading weights:  88%|████████▊ | 352/401 [00:29\u003c00:03, 13.62it/s]\rLoading weights:  88%|████████▊ | 354/401 [00:29\u003c00:03, 13.49it/s]\rLoading weights:  91%|█████████▏| 366/401 [00:30\u003c00:02, 14.58it/s]\rLoading weights:  95%|█████████▍| 380/401 [00:30\u003c00:01, 15.02it/s]\rLoading weights:  98%|█████████▊| 394/401 [00:31\u003c00:00, 22.35it/s]\rLoading weights: 100%|██████████| 401/401 [00:31\u003c00:00, 12.89it/s]\n"}
+,{"stream_name":"stderr","time":67.424297098,"data":"[transformers] \u001b[1mGemma4UnifiedModel LOAD REPORT\u001b[0m from: /kaggle/input/models/google/gemma-4/transformers/gemma-4-12b/2\n"}
+,{"stream_name":"stderr","time":67.424330776,"data":"Key                                                                     | Status     |  | \n"}
+,{"stream_name":"stderr","time":67.424336966,"data":"------------------------------------------------------------------------+------------+--+-\n"}
+,{"stream_name":"stderr","time":67.424342408,"data":"model.language_model.layers.{28...47}.mlp.up_proj.weight                | UNEXPECTED |  | \n"}
+,{"stream_name":"stderr","time":67.424347801,"data":"model.language_model.layers.{28...47}.mlp.down_proj.weight              | UNEXPECTED |  | \n"}
+,{"stream_name":"stderr","time":67.424353058,"data":"model.language_model.layers.{28...47}.input_layernorm.weight            | UNEXPECTED |  | \n"}
+,{"stream_name":"stderr","time":67.424358156,"data":"model.language_model.layers.{28...47}.self_attn.q_proj.weight           | UNEXPECTED |  | \n"}
+,{"stream_name":"stderr","time":67.424363346,"data":"model.language_model.layers.{28...47}.post_attention_layernorm.weight   | UNEXPECTED |  | \n"}
+,{"stream_name":"stderr","time":67.424383721,"data":"model.language_model.layers.{28...47}.self_attn.o_proj.weight           | UNEXPECTED |  | \n"}
+,{"stream_name":"stderr","time":67.42438829,"data":"model.language_model.layers.{28...47}.mlp.gate_proj.weight              | UNEXPECTED |  | \n"}
+,{"stream_name":"stderr","time":67.424392528,"data":"model.language_model.layers.{28...47}.self_attn.k_norm.weight           | UNEXPECTED |  | \n"}
+,{"stream_name":"stderr","time":67.424396766,"data":"model.language_model.layers.{28...47}.pre_feedforward_layernorm.weight  | UNEXPECTED |  | \n"}
+,{"stream_name":"stderr","time":67.424401004,"data":"model.language_model.layers.{28...47}.self_attn.k_proj.weight           | UNEXPECTED |  | \n"}
+,{"stream_name":"stderr","time":67.42440504,"data":"model.language_model.layers.{28...47}.post_feedforward_layernorm.weight | UNEXPECTED |  | \n"}
+,{"stream_name":"stderr","time":67.424409216,"data":"model.language_model.layers.{28...47}.layer_scalar                      | UNEXPECTED |  | \n"}
+,{"stream_name":"stderr","time":67.42441311,"data":"model.language_model.layers.{28...46}.self_attn.v_proj.weight           | UNEXPECTED |  | \n"}
+,{"stream_name":"stderr","time":67.424417403,"data":"model.language_model.layers.{28...47}.self_attn.q_norm.weight           | UNEXPECTED |  | \n"}
+,{"stream_name":"stderr","time":67.424421758,"data":"\n"}
+,{"stream_name":"stderr","time":67.424425697,"data":"Notes:\n"}
+,{"stream_name":"stderr","time":67.424429563,"data":"- UNEXPECTED:\tcan be ignored when loading from different task/architecture; not ok if you expect identical arch.\n"}
+,{"stream_name":"stdout","time":67.514061384,"data":"loaded 37s\n"}
+,{"stream_name":"stdout","time":388.220765412,"data":"embedded 358s, nonfinite batches 0\n"}
+,{"stream_name":"stdout","time":518.150464827,"data":"gemma4-12b layer   2: OOF bal acc 0.3860  (488s)\n"}
+,{"stream_name":"stdout","time":636.335299788,"data":"gemma4-12b layer   4: OOF bal acc 0.3686  (606s)\n"}
+,{"stream_name":"stdout","time":752.063351551,"data":"gemma4-12b layer   6: OOF bal acc 0.3537  (722s)\n"}
+,{"stream_name":"stdout","time":861.513058758,"data":"gemma4-12b layer   8: OOF bal acc 0.3508  (831s)\n"}
+,{"stream_name":"stdout","time":979.644272297,"data":"gemma4-12b layer  10: OOF bal acc 0.3560  (950s)\n"}
+,{"stream_name":"stdout","time":1077.118448678,"data":"gemma4-12b layer  12: OOF bal acc 0.4027  (1047s)\n"}
+,{"stream_name":"stdout","time":1158.000293388,"data":"gemma4-12b layer  14: OOF bal acc 0.4182  (1128s)\n"}
+,{"stream_name":"stdout","time":1233.807283695,"data":"gemma4-12b layer  16: OOF bal acc 0.4149  (1204s)\n"}
+,{"stream_name":"stdout","time":1312.732306974,"data":"gemma4-12b layer  18: OOF bal acc 0.4104  (1283s)\n"}
+,{"stream_name":"stdout","time":1386.270868085,"data":"gemma4-12b layer  20: OOF bal acc 0.4145  (1356s)\n"}
+,{"stream_name":"stdout","time":1457.238278407,"data":"gemma4-12b layer  22: OOF bal acc 0.4134  (1427s)\n"}
+,{"stream_name":"stdout","time":1519.238683816,"data":"gemma4-12b layer  24: OOF bal acc 0.3901  (1489s)\n"}
+,{"stream_name":"stdout","time":1584.897279767,"data":"gemma4-12b layer  26: OOF bal acc 0.4249  (1555s)\n"}
+,{"stream_name":"stdout","time":1645.801345282,"data":"gemma4-12b layer  28: OOF bal acc 0.4023  (1616s)\n"}
+,{"stream_name":"stdout","time":1645.801729032,"data":"best [(26, 0.4249), (14, 0.4182), (16, 0.4149), (20, 0.4145), (22, 0.4134)]\n"}
+,{"stream_name":"stderr","time":1652.165788494,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":1652.165817364,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":1652.418295877,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":1652.418319326,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":1653.257404171,"data":"[NbConvertApp] Converting notebook __script__.ipynb to html\n"}
+,{"stream_name":"stderr","time":1654.263686156,"data":"[NbConvertApp] Writing 302790 bytes to __results__.html\n"}
+]

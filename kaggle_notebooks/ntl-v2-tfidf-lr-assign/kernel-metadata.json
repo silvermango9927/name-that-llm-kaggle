@@ -1,0 +1,3 @@
+{"id": "abhayganti09/ntl-v2-tfidf-lr-assign", "title": "ntl-v2-tfidf-lr-assign", "code_file": "main.py", "language": "python", "kernel_type": "script",
+ "is_private": true, "enable_gpu": false, "enable_internet": false, "dataset_sources": [],
+ "competition_sources": ["name-that-llm"], "kernel_sources": [], "model_sources": []}

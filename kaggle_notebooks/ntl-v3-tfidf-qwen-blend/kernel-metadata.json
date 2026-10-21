@@ -1,0 +1,4 @@
+{"id": "abhayganti09/ntl-v3-tfidf-qwen-blend", "title": "ntl-v3-tfidf-qwen-blend", "code_file": "main.py",
+ "language": "python", "kernel_type": "script", "is_private": true, "enable_gpu": true, "enable_internet": false,
+ "dataset_sources": [], "competition_sources": ["name-that-llm"], "kernel_sources": [],
+ "model_sources": ["qwen-lm/qwen-3/Transformers/1.7b-base/1"], "machine_shape": "NvidiaTeslaT4"}

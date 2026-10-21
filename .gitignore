@@ -1,0 +1,10 @@
+.venv/
+data/
+research/public_notebooks/
+results/*.npy
+__pycache__/
+*.parquet
+.env
+datagen/out/
+datagen/out_pilot/
+datagen/logs/

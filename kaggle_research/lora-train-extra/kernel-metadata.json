@@ -1,0 +1,6 @@
+{"id": "abhayganti09/ntl-lora-q8b-extra", "title": "ntl-lora-q8b-extra", "code_file": "main.py", "language": "python",
+ "kernel_type": "script", "is_private": true, "enable_gpu": true, "enable_internet": false,
+ "dataset_sources": ["seyitkaangunes/ntl-extra-api-passages", "abdullah1afify/ntl-generations",
+                     "keshavatearth/ntl-gpt-new-prompts-v1", "prvsiyan/ntl-own-prompt-generations-v1"],
+ "competition_sources": ["name-that-llm"], "kernel_sources": [],
+ "model_sources": ["qwen-lm/qwen-3/transformers/8b-base/1"], "machine_shape": "NvidiaTeslaT4"}

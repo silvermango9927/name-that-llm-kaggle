@@ -1,0 +1,2 @@
+[e14_stylegram_extra_w0.7_all-ownx] OOF balanced acc 0.4297 (folds [0.415 0.419 0.42  0.446 0.449], std 0.015) | lab acc 0.724
+[e14_stylegram_extra_w0.85_all-ownx] OOF balanced acc 0.4178 (folds [0.413 0.394 0.413 0.437 0.432], std 0.015) | lab acc 0.709

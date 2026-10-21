@@ -1,0 +1,35 @@
+{
+ "id": "abhayganti09/ntl-extra-heads-pool",
+ "title": "ntl-extra-heads-pool",
+ "code_file": "main.py",
+ "language": "python",
+ "kernel_type": "script",
+ "is_private": true,
+ "enable_gpu": true,
+ "enable_internet": false,
+ "dataset_sources": [
+  "abdullah1afify/ntl-generations",
+  "alperen5252525/ntl-vertex-gemini-proxy-gpt-generations",
+  "bbucxi/qwen35-9b-safetensors",
+  "dophuchung/ntl-proxy-generations",
+  "haileycheng/name-that-llm-same-prompt-passages",
+  "kaplinskiy/ntl-gpt-proxy-passages",
+  "keshavatearth/ntl-gpt-new-prompts-v1",
+  "lucasboesen/ntl-free-proxy-generations",
+  "lxdlxdlxd/ntl-synth-generations-v1",
+  "prvsiyan/ntl-own-prompt-generations-v1",
+  "prvsiyan/prvsiyans-extended-name-that-llm-dataset",
+  "seyitkaangunes/ntl-extra-api-passages"
+ ],
+ "competition_sources": [
+  "name-that-llm"
+ ],
+ "kernel_sources": [
+  "abhayganti09/ntl-feat-qwen3-8b",
+  "abhayganti09/ntl-feat-qwen35-9b"
+ ],
+ "model_sources": [
+  "qwen-lm/qwen-3/transformers/8b-base/1"
+ ],
+ "machine_shape": "NvidiaTeslaT4"
+}

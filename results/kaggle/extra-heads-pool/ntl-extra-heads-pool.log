@@ -1,0 +1,69 @@
+[{"stream_name":"stdout","time":36.384388325,"data":"extra pool 22149 {'claude-opus-4-6': 1696, 'claude-opus-5': 1696, 'claude-sonnet-5': 1696, 'claude-opus-4-8': 1695, 'gemini-3.8-flash': 1667, 'gemini-3.6-flash': 1619, 'claude-fable-5': 1554, 'gpt-5.6-luna': 1268, 'gpt-5.6-terra': 1266, 'gpt-5.5': 1207, 'gpt-5.6-sol': 1172, 'gemini-3.1-pro-preview': 1156, 'gemini-3.7-flash': 1057, 'gpt-6-astra': 950, 'glm-5.3-flash': 639, 'glm-5.3': 631, 'kimi-k3': 594, 'qwen3.8-max': 586}\n"}
+,{"stream_name":"stderr","time":36.402744234,"data":"/kaggle/src/script.py:71: FutureWarning: DataFrameGroupBy.apply operated on the grouping columns. This behavior is deprecated, and in a future version of pandas the grouping columns will be excluded from the operation. Either pass `include_groups=False` to exclude the groupings or explicitly select the grouping columns after groupby to silence this warning.\n"}
+,{"stream_name":"stderr","time":36.402784925,"data":"  ex = ex.groupby('model', group_keys=False).apply(lambda g: g.sample(min(len(g), CAP), random_state=0)).reset_index(drop=True)\n"}
+,{"stream_name":"stdout","time":36.406871155,"data":"extra rows 10780 [600, 600, 600, 600, 600, 600, 600, 600, 600, 600, 600, 600, 600, 600, 600, 600, 594, 586]\n"}
+,{"stream_name":"stderr","time":57.927176535,"data":"\rLoading weights:   0%|          | 0/575 [00:00\u003c?, ?it/s]\rLoading weights:   0%|          | 1/575 [00:10\u003c1:42:49, 10.75s/it]\rLoading weights:  26%|██▋       | 151/575 [00:11\u003c00:23, 18.17it/s]\rLoading weights:  30%|██▉       | 171/575 [00:12\u003c00:20, 19.26it/s]\rLoading weights:  31%|███▏      | 181/575 [00:12\u003c00:19, 20.28it/s]\rLoading weights:  33%|███▎      | 188/575 [00:13\u003c00:21, 18.28it/s]\rLoading weights:  34%|███▍      | 196/575 [00:13\u003c00:18, 20.32it/s]\rLoading weights:  35%|███▌      | 202/575 [00:14\u003c00:21, 17.59it/s]\rLoading weights:  36%|███▌      | 207/575 [00:14\u003c00:23, 15.97it/s]\rLoading weights:  38%|███▊      | 220/575 [00:14\u003c00:16, 21.00it/s]\rLoading weights:  39%|███▉      | 225/575 [00:15\u003c00:19, 17.66it/s]\rLoading weights:  41%|████▏     | 238/575 [00:15\u003c00:17, 19.42it/s]\rLoading weights:  49%|████▉     | 282/575 [00:15\u003c00:06, 48.62it/s]\rLoading weights:  52%|█████▏    | 298/575 [00:16\u003c00:04, 58.02it/s]\rLoading weights:  57%|█████▋    | 330/575 [00:16\u003c00:02, 87.69it/s]\rLoading weights:  62%|██████▏   | 354/575 [00:16\u003c00:02, 106.88it/s]\rLoading weights:  66%|██████▌   | 380/575 [00:16\u003c00:01, 125.11it/s]\rLoading weights:  72%|███████▏  | 414/575 [00:16\u003c00:01, 158.20it/s]\rLoading weights:  76%|███████▌  | 437/575 [00:16\u003c00:00, 170.26it/s]\rLoading weights:  80%|████████  | 462/575 [00:16\u003c00:00, 184.05it/s]\rLoading weights:  85%|████████▍ | 486/575 [00:16\u003c00:00, 195.83it/s]\rLoading weights:  89%|████████▊ | 509/575 [00:16\u003c00:00, 203.68it/s]\rLoading weights:  93%|█████████▎| 532/575 [00:17\u003c00:00, 209.77it/s]\rLoading weights:  97%|█████████▋| 555/575 [00:17\u003c00:00, 213.33it/s]\rLoading weights: 100%|██████████| 575/575 [00:17\u003c00:00, 33.04it/s] \n"}
+,{"stream_name":"stderr","time":58.119379259,"data":"[transformers] \u001b[1mQwen3_5Model LOAD REPORT\u001b[0m from: /kaggle/input/qwen35-9b-safetensors\n"}
+,{"stream_name":"stderr","time":58.119403412,"data":"Key                                                                                                 | Status     |  | \n"}
+,{"stream_name":"stderr","time":58.119420551,"data":"----------------------------------------------------------------------------------------------------+------------+--+-\n"}
+,{"stream_name":"stderr","time":58.119424897,"data":"model.language_model.layers.{18, 20, 21, 22, 24, 25, 26, 28, 29, 30}.linear_attn.conv1d.weight      | UNEXPECTED |  | \n"}
+,{"stream_name":"stderr","time":58.119444714,"data":"model.language_model.layers.{18...31}.mlp.down_proj.weight                                          | UNEXPECTED |  | \n"}
+,{"stream_name":"stderr","time":58.119448891,"data":"model.language_model.layers.{18, 20, 21, 22, 24, 25, 26, 28, 29, 30}.linear_attn.in_proj_z.weight   | UNEXPECTED |  | \n"}
+,{"stream_name":"stderr","time":58.119452484,"data":"model.language_model.layers.{18...31}.post_attention_layernorm.weight                               | UNEXPECTED |  | \n"}
+,{"stream_name":"stderr","time":58.119460254,"data":"model.language_model.layers.{18...31}.mlp.up_proj.weight                                            | UNEXPECTED |  | \n"}
+,{"stream_name":"stderr","time":58.119462835,"data":"model.language_model.layers.{18, 20, 21, 22, 24, 25, 26, 28, 29, 30}.linear_attn.out_proj.weight    | UNEXPECTED |  | \n"}
+,{"stream_name":"stderr","time":58.119465206,"data":"model.language_model.layers.{18, 20, 21, 22, 24, 25, 26, 28, 29, 30}.linear_attn.dt_bias            | UNEXPECTED |  | \n"}
+,{"stream_name":"stderr","time":58.119467492,"data":"model.language_model.layers.{19, 23, 27, 31}.self_attn.v_proj.weight                                | UNEXPECTED |  | \n"}
+,{"stream_name":"stderr","time":58.119469773,"data":"model.language_model.layers.{18...31}.input_layernorm.weight                                        | UNEXPECTED |  | \n"}
+,{"stream_name":"stderr","time":58.119472029,"data":"model.language_model.layers.{18, 20, 21, 22, 24, 25, 26, 28, 29, 30}.linear_attn.in_proj_qkv.weight | UNEXPECTED |  | \n"}
+,{"stream_name":"stderr","time":58.119474371,"data":"model.language_model.layers.{19, 23, 27, 31}.self_attn.q_norm.weight                                | UNEXPECTED |  | \n"}
+,{"stream_name":"stderr","time":58.11947664,"data":"model.language_model.layers.{19, 23, 27, 31}.self_attn.k_norm.weight                                | UNEXPECTED |  | \n"}
+,{"stream_name":"stderr","time":58.119478919,"data":"model.language_model.layers.{18, 20, 21, 22, 24, 25, 26, 28, 29, 30}.linear_attn.in_proj_a.weight   | UNEXPECTED |  | \n"}
+,{"stream_name":"stderr","time":58.119481169,"data":"model.language_model.layers.{18...31}.mlp.gate_proj.weight                                          | UNEXPECTED |  | \n"}
+,{"stream_name":"stderr","time":58.119504573,"data":"lm_head.weight                                                                                      | UNEXPECTED |  | \n"}
+,{"stream_name":"stderr","time":58.119517276,"data":"model.language_model.layers.{19, 23, 27, 31}.self_attn.q_proj.weight                                | UNEXPECTED |  | \n"}
+,{"stream_name":"stderr","time":58.119520999,"data":"model.language_model.layers.{18, 20, 21, 22, 24, 25, 26, 28, 29, 30}.linear_attn.A_log              | UNEXPECTED |  | \n"}
+,{"stream_name":"stderr","time":58.119525049,"data":"model.language_model.layers.{18, 20, 21, 22, 24, 25, 26, 28, 29, 30}.linear_attn.in_proj_b.weight   | UNEXPECTED |  | \n"}
+,{"stream_name":"stderr","time":58.119528674,"data":"model.language_model.layers.{19, 23, 27, 31}.self_attn.k_proj.weight                                | UNEXPECTED |  | \n"}
+,{"stream_name":"stderr","time":58.119532793,"data":"model.language_model.layers.{19, 23, 27, 31}.self_attn.o_proj.weight                                | UNEXPECTED |  | \n"}
+,{"stream_name":"stderr","time":58.119536554,"data":"model.language_model.layers.{18, 20, 21, 22, 24, 25, 26, 28, 29, 30}.linear_attn.norm.weight        | UNEXPECTED |  | \n"}
+,{"stream_name":"stderr","time":58.119539987,"data":"\n"}
+,{"stream_name":"stderr","time":58.119543025,"data":"Notes:\n"}
+,{"stream_name":"stderr","time":58.11954619,"data":"- UNEXPECTED:\tcan be ignored when loading from different task/architecture; not ok if you expect identical arch.\n"}
+,{"stream_name":"stdout","time":1347.376386453,"data":"q35 extra embedded 1314s\n"}
+,{"stream_name":"stdout","time":1764.026603451,"data":"q35_L18_x0.3 0.4801 (1731s)\n"}
+,{"stream_name":"stdout","time":2292.873243325,"data":"q35_L18_x0.5 0.4819 (2260s)\n"}
+,{"stream_name":"stdout","time":2868.081151161,"data":"q35_L18_x0.7 0.4627 (2835s)\n"}
+,{"stream_name":"stdout","time":3013.844418173,"data":"q35_L17_x0.3 0.4719 (2981s)\n"}
+,{"stream_name":"stdout","time":3179.406590933,"data":"q35_L17_x0.5 0.4767 (3146s)\n"}
+,{"stream_name":"stdout","time":3368.360736414,"data":"q35_L17_x0.7 0.4616 (3335s)\n"}
+,{"stream_name":"stderr","time":3384.952869616,"data":"\rLoading weights:   0%|          | 0/244 [00:00\u003c?, ?it/s]\rLoading weights:   0%|          | 1/244 [00:07\u003c30:09,  7.44s/it]\rLoading weights:  40%|███▉      | 97/244 [00:07\u003c00:08, 17.74it/s]\rLoading weights:  50%|████▉     | 121/244 [00:08\u003c00:06, 18.10it/s]\rLoading weights:  55%|█████▌    | 135/244 [00:10\u003c00:06, 16.41it/s]\rLoading weights:  60%|█████▉    | 146/244 [00:10\u003c00:05, 16.64it/s]\rLoading weights:  64%|██████▍   | 157/244 [00:11\u003c00:05, 16.71it/s]\rLoading weights:  69%|██████▉   | 168/244 [00:12\u003c00:04, 16.84it/s]\rLoading weights:  73%|███████▎  | 179/244 [00:12\u003c00:03, 17.40it/s]\rLoading weights:  75%|███████▌  | 183/244 [00:12\u003c00:03, 18.49it/s]\rLoading weights:  78%|███████▊  | 190/244 [00:13\u003c00:03, 17.74it/s]\rLoading weights:  82%|████████▏ | 201/244 [00:13\u003c00:02, 16.70it/s]\rLoading weights:  87%|████████▋ | 212/244 [00:14\u003c00:01, 18.10it/s]\rLoading weights:  88%|████████▊ | 215/244 [00:14\u003c00:01, 18.68it/s]\rLoading weights:  91%|█████████▏| 223/244 [00:15\u003c00:01, 17.62it/s]\rLoading weights:  96%|█████████▌| 234/244 [00:15\u003c00:00, 17.69it/s]\rLoading weights: 100%|██████████| 244/244 [00:15\u003c00:00, 15.54it/s]\n"}
+,{"stream_name":"stderr","time":3385.063505757,"data":"[transformers] \u001b[1mQwen3Model LOAD REPORT\u001b[0m from: /kaggle/input/models/qwen-lm/qwen-3/transformers/8b-base/1\n"}
+,{"stream_name":"stderr","time":3385.063542441,"data":"Key                                                    | Status     |  | \n"}
+,{"stream_name":"stderr","time":3385.063553331,"data":"-------------------------------------------------------+------------+--+-\n"}
+,{"stream_name":"stderr","time":3385.063556661,"data":"model.layers.{22...35}.self_attn.q_proj.weight         | UNEXPECTED |  | \n"}
+,{"stream_name":"stderr","time":3385.063559597,"data":"model.layers.{22...35}.input_layernorm.weight          | UNEXPECTED |  | \n"}
+,{"stream_name":"stderr","time":3385.063562627,"data":"model.layers.{22...35}.self_attn.k_proj.weight         | UNEXPECTED |  | \n"}
+,{"stream_name":"stderr","time":3385.063565569,"data":"model.layers.{22...35}.self_attn.o_proj.weight         | UNEXPECTED |  | \n"}
+,{"stream_name":"stderr","time":3385.063568382,"data":"model.layers.{22...35}.self_attn.v_proj.weight         | UNEXPECTED |  | \n"}
+,{"stream_name":"stderr","time":3385.063571202,"data":"model.layers.{22...35}.self_attn.k_norm.weight         | UNEXPECTED |  | \n"}
+,{"stream_name":"stderr","time":3385.063574021,"data":"model.layers.{22...35}.self_attn.q_norm.weight         | UNEXPECTED |  | \n"}
+,{"stream_name":"stderr","time":3385.063576758,"data":"model.layers.{22...35}.post_attention_layernorm.weight | UNEXPECTED |  | \n"}
+,{"stream_name":"stderr","time":3385.063579636,"data":"model.layers.{22...35}.mlp.gate_proj.weight            | UNEXPECTED |  | \n"}
+,{"stream_name":"stderr","time":3385.063594878,"data":"model.layers.{22...35}.mlp.down_proj.weight            | UNEXPECTED |  | \n"}
+,{"stream_name":"stderr","time":3385.063597313,"data":"model.layers.{22...35}.mlp.up_proj.weight              | UNEXPECTED |  | \n"}
+,{"stream_name":"stderr","time":3385.063599529,"data":"lm_head.weight                                         | UNEXPECTED |  | \n"}
+,{"stream_name":"stderr","time":3385.063601718,"data":"\n"}
+,{"stream_name":"stderr","time":3385.063603827,"data":"Notes:\n"}
+,{"stream_name":"stderr","time":3385.063606016,"data":"- UNEXPECTED:\tcan be ignored when loading from different task/architecture; not ok if you expect identical arch.\n"}
+,{"stream_name":"stdout","time":4331.347752634,"data":"q8b extra embedded 4298s\n"}
+,{"stream_name":"stdout","time":4654.079108821,"data":"q8b_L2+22_x0.3 0.4971 (4621s)\n"}
+,{"stream_name":"stdout","time":5079.240620033,"data":"q8b_L2+22_x0.5 0.5038 (5046s)\n"}
+,{"stream_name":"stdout","time":5681.111251825,"data":"q8b_L2+22_x0.7 0.4934 (5648s)\n"}
+,{"stream_name":"stderr","time":5689.920974048,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":5689.921001575,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":5690.259419433,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":5690.259448016,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":5691.126144543,"data":"[NbConvertApp] Converting notebook __script__.ipynb to html\n"}
+,{"stream_name":"stderr","time":5692.242749454,"data":"[NbConvertApp] Writing 320294 bytes to __results__.html\n"}
+]

@@ -1,0 +1,43 @@
+[{"stream_name":"stdout","time":52.330559008,"data":"model /kaggle/input/models/qwen-lm/qwen-3/transformers/8b-base/1 layers 36 -\u003e keep 26 gpus 2\n"}
+,{"stream_name":"stderr","time":85.428975042,"data":"\rLoading weights:   0%|          | 0/288 [00:00\u003c?, ?it/s]\rLoading weights:   0%|          | 1/288 [00:12\u003c1:01:44, 12.91s/it]\rLoading weights:  34%|███▍      | 99/288 [00:13\u003c00:17, 10.50it/s] \rLoading weights:  44%|████▍     | 127/288 [00:16\u003c00:16,  9.83it/s]\rLoading weights:  48%|████▊     | 139/288 [00:17\u003c00:14,  9.97it/s]\rLoading weights:  51%|█████     | 146/288 [00:18\u003c00:14,  9.62it/s]\rLoading weights:  52%|█████▏    | 151/288 [00:18\u003c00:13, 10.48it/s]\rLoading weights:  55%|█████▍    | 157/288 [00:19\u003c00:14,  9.31it/s]\rLoading weights:  58%|█████▊    | 168/288 [00:20\u003c00:11, 10.27it/s]\rLoading weights:  59%|█████▉    | 171/288 [00:20\u003c00:11, 10.48it/s]\rLoading weights:  62%|██████▏   | 179/288 [00:21\u003c00:10, 10.40it/s]\rLoading weights:  63%|██████▎   | 181/288 [00:21\u003c00:10, 10.37it/s]\rLoading weights:  66%|██████▌   | 190/288 [00:22\u003c00:08, 11.81it/s]\rLoading weights:  67%|██████▋   | 192/288 [00:22\u003c00:08, 11.66it/s]\rLoading weights:  70%|██████▉   | 201/288 [00:23\u003c00:07, 11.57it/s]\rLoading weights:  70%|███████   | 203/288 [00:23\u003c00:07, 11.82it/s]\rLoading weights:  74%|███████▎  | 212/288 [00:24\u003c00:06, 12.32it/s]\rLoading weights:  77%|███████▋  | 223/288 [00:25\u003c00:05, 12.18it/s]\rLoading weights:  81%|████████▏ | 234/288 [00:25\u003c00:04, 12.40it/s]\rLoading weights:  85%|████████▌ | 245/288 [00:26\u003c00:03, 13.40it/s]\rLoading weights:  86%|████████▌ | 247/288 [00:26\u003c00:03, 13.59it/s]\rLoading weights:  89%|████████▉ | 256/288 [00:27\u003c00:02, 13.55it/s]\rLoading weights:  90%|████████▉ | 258/288 [00:27\u003c00:02, 13.70it/s]\rLoading weights:  93%|█████████▎| 267/288 [00:28\u003c00:01, 13.11it/s]\rLoading weights:  93%|█████████▎| 269/288 [00:28\u003c00:01, 13.45it/s]\rLoading weights:  97%|█████████▋| 278/288 [00:29\u003c00:00, 12.62it/s]\rLoading weights: 100%|██████████| 288/288 [00:29\u003c00:00,  9.86it/s]\n"}
+,{"stream_name":"stderr","time":85.603853442,"data":"[transformers] \u001b[1mQwen3Model LOAD REPORT\u001b[0m from: /kaggle/input/models/qwen-lm/qwen-3/transformers/8b-base/1\n"}
+,{"stream_name":"stderr","time":85.603889746,"data":"Key                                                                                   | Status     |  | \n"}
+,{"stream_name":"stderr","time":85.603895517,"data":"--------------------------------------------------------------------------------------+------------+--+-\n"}
+,{"stream_name":"stderr","time":85.603900634,"data":"model.layers.{26, 27, 28, 29, 30, 31, 32, 33, 34, 35}.mlp.gate_proj.weight            | UNEXPECTED |  | \n"}
+,{"stream_name":"stderr","time":85.603905743,"data":"model.layers.{26, 27, 28, 29, 30, 31, 32, 33, 34, 35}.mlp.up_proj.weight              | UNEXPECTED |  | \n"}
+,{"stream_name":"stderr","time":85.603911201,"data":"model.layers.{26, 27, 28, 29, 30, 31, 32, 33, 34, 35}.post_attention_layernorm.weight | UNEXPECTED |  | \n"}
+,{"stream_name":"stderr","time":85.603916089,"data":"model.layers.{26, 27, 28, 29, 30, 31, 32, 33, 34, 35}.self_attn.q_norm.weight         | UNEXPECTED |  | \n"}
+,{"stream_name":"stderr","time":85.603920951,"data":"model.layers.{26, 27, 28, 29, 30, 31, 32, 33, 34, 35}.self_attn.v_proj.weight         | UNEXPECTED |  | \n"}
+,{"stream_name":"stderr","time":85.603925736,"data":"model.layers.{26, 27, 28, 29, 30, 31, 32, 33, 34, 35}.mlp.down_proj.weight            | UNEXPECTED |  | \n"}
+,{"stream_name":"stderr","time":85.603946082,"data":"model.layers.{26, 27, 28, 29, 30, 31, 32, 33, 34, 35}.self_attn.k_norm.weight         | UNEXPECTED |  | \n"}
+,{"stream_name":"stderr","time":85.603950431,"data":"model.layers.{26, 27, 28, 29, 30, 31, 32, 33, 34, 35}.self_attn.q_proj.weight         | UNEXPECTED |  | \n"}
+,{"stream_name":"stderr","time":85.603954206,"data":"model.layers.{26, 27, 28, 29, 30, 31, 32, 33, 34, 35}.input_layernorm.weight          | UNEXPECTED |  | \n"}
+,{"stream_name":"stderr","time":85.60395819,"data":"model.layers.{26, 27, 28, 29, 30, 31, 32, 33, 34, 35}.self_attn.k_proj.weight         | UNEXPECTED |  | \n"}
+,{"stream_name":"stderr","time":85.603962152,"data":"model.layers.{26, 27, 28, 29, 30, 31, 32, 33, 34, 35}.self_attn.o_proj.weight         | UNEXPECTED |  | \n"}
+,{"stream_name":"stderr","time":85.603966187,"data":"lm_head.weight                                                                        | UNEXPECTED |  | \n"}
+,{"stream_name":"stderr","time":85.603970198,"data":"\n"}
+,{"stream_name":"stderr","time":85.603973797,"data":"Notes:\n"}
+,{"stream_name":"stderr","time":85.603977442,"data":"- UNEXPECTED:\tcan be ignored when loading from different task/architecture; not ok if you expect identical arch.\n"}
+,{"stream_name":"stdout","time":85.682419205,"data":"loaded 34s\n"}
+,{"stream_name":"stdout","time":336.107270841,"data":"embedded 284s, nonfinite batches 0\n"}
+,{"stream_name":"stdout","time":427.596873209,"data":"qwen3-8b layer   2: OOF bal acc 0.4156  (375s)\n"}
+,{"stream_name":"stdout","time":521.326848937,"data":"qwen3-8b layer   4: OOF bal acc 0.4190  (469s)\n"}
+,{"stream_name":"stdout","time":622.55030647,"data":"qwen3-8b layer   6: OOF bal acc 0.4175  (570s)\n"}
+,{"stream_name":"stdout","time":712.444160101,"data":"qwen3-8b layer   8: OOF bal acc 0.4253  (660s)\n"}
+,{"stream_name":"stdout","time":784.132208208,"data":"qwen3-8b layer  10: OOF bal acc 0.3997  (732s)\n"}
+,{"stream_name":"stdout","time":861.282485565,"data":"qwen3-8b layer  12: OOF bal acc 0.3771  (809s)\n"}
+,{"stream_name":"stdout","time":929.698803209,"data":"qwen3-8b layer  14: OOF bal acc 0.3756  (878s)\n"}
+,{"stream_name":"stdout","time":981.226425006,"data":"qwen3-8b layer  16: OOF bal acc 0.3886  (929s)\n"}
+,{"stream_name":"stdout","time":1048.527120986,"data":"qwen3-8b layer  18: OOF bal acc 0.3875  (996s)\n"}
+,{"stream_name":"stdout","time":1115.604407814,"data":"qwen3-8b layer  20: OOF bal acc 0.4115  (1063s)\n"}
+,{"stream_name":"stdout","time":1185.643271172,"data":"qwen3-8b layer  22: OOF bal acc 0.4197  (1133s)\n"}
+,{"stream_name":"stdout","time":1260.688896868,"data":"qwen3-8b layer  24: OOF bal acc 0.4001  (1209s)\n"}
+,{"stream_name":"stdout","time":1335.460711473,"data":"qwen3-8b layer  26: OOF bal acc 0.3945  (1283s)\n"}
+,{"stream_name":"stdout","time":1335.461107228,"data":"best [(8, 0.4253), (22, 0.4197), (4, 0.419), (6, 0.4175), (2, 0.4156)]\n"}
+,{"stream_name":"stderr","time":1346.123670944,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":1346.123717661,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":1346.537028104,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":1346.537054648,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":1347.693946573,"data":"[NbConvertApp] Converting notebook __script__.ipynb to html\n"}
+,{"stream_name":"stderr","time":1349.17253736,"data":"[NbConvertApp] Writing 301493 bytes to __results__.html\n"}
+]

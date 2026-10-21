@@ -1,0 +1,61 @@
+[{"stream_name":"stdout","time":32.031383069,"data":"model /kaggle/input/qwen35-9b-safetensors layers 32 -\u003e keep 22 gpus 2\n"}
+,{"stream_name":"stderr","time":54.653937381,"data":"\rLoading weights:   0%|          | 0/628 [00:00\u003c?, ?it/s]\rLoading weights:   0%|          | 1/628 [00:09\u003c1:42:03,  9.77s/it]\rLoading weights:  24%|██▍       | 151/628 [00:10\u003c00:23, 20.08it/s]\rLoading weights:  27%|██▋       | 167/628 [00:10\u003c00:21, 20.96it/s]\rLoading weights:  28%|██▊       | 176/628 [00:11\u003c00:21, 21.05it/s]\rLoading weights:  29%|██▉       | 184/628 [00:11\u003c00:19, 22.78it/s]\rLoading weights:  30%|███       | 191/628 [00:12\u003c00:20, 21.03it/s]\rLoading weights:  31%|███       | 196/628 [00:12\u003c00:20, 21.59it/s]\rLoading weights:  32%|███▏      | 201/628 [00:12\u003c00:24, 17.28it/s]\rLoading weights:  33%|███▎      | 205/628 [00:13\u003c00:26, 15.89it/s]\rLoading weights:  35%|███▌      | 220/628 [00:13\u003c00:18, 22.50it/s]\rLoading weights:  36%|███▌      | 224/628 [00:13\u003c00:21, 18.68it/s]\rLoading weights:  36%|███▌      | 227/628 [00:14\u003c00:21, 18.98it/s]\rLoading weights:  38%|███▊      | 238/628 [00:14\u003c00:20, 19.06it/s]\rLoading weights:  40%|███▉      | 251/628 [00:14\u003c00:14, 26.04it/s]\rLoading weights:  41%|████      | 255/628 [00:15\u003c00:18, 19.64it/s]\rLoading weights:  41%|████      | 258/628 [00:15\u003c00:26, 14.21it/s]\rLoading weights:  43%|████▎     | 273/628 [00:16\u003c00:13, 25.56it/s]\rLoading weights:  44%|████▍     | 279/628 [00:16\u003c00:18, 18.59it/s]\rLoading weights:  46%|████▋     | 291/628 [00:17\u003c00:17, 19.11it/s]\rLoading weights:  55%|█████▌    | 347/628 [00:17\u003c00:04, 62.75it/s]\rLoading weights:  58%|█████▊    | 366/628 [00:17\u003c00:03, 75.25it/s]\rLoading weights:  63%|██████▎   | 397/628 [00:17\u003c00:02, 103.20it/s]\rLoading weights:  68%|██████▊   | 429/628 [00:17\u003c00:01, 134.13it/s]\rLoading weights:  72%|███████▏  | 453/628 [00:17\u003c00:01, 150.48it/s]\rLoading weights:  76%|███████▌  | 476/628 [00:17\u003c00:00, 160.85it/s]\rLoading weights:  80%|████████  | 503/628 [00:18\u003c00:00, 182.52it/s]\rLoading weights:  84%|████████▍ | 527/628 [00:18\u003c00:00, 194.92it/s]\rLoading weights:  88%|████████▊ | 553/628 [00:18\u003c00:00, 200.98it/s]\rLoading weights:  92%|█████████▏| 579/628 [00:18\u003c00:00, 205.35it/s]\rLoading weights:  97%|█████████▋| 611/628 [00:18\u003c00:00, 232.48it/s]\rLoading weights: 100%|██████████| 628/628 [00:18\u003c00:00, 33.49it/s] \n"}
+,{"stream_name":"stderr","time":54.867795218,"data":"[transformers] \u001b[1mQwen3_5Model LOAD REPORT\u001b[0m from: /kaggle/input/qwen35-9b-safetensors\n"}
+,{"stream_name":"stderr","time":54.867826937,"data":"Key                                                                                                  | Status     |  | \n"}
+,{"stream_name":"stderr","time":54.867831635,"data":"-----------------------------------------------------------------------------------------------------+------------+--+-\n"}
+,{"stream_name":"stderr","time":54.867835557,"data":"model.language_model.layers.{22, 23, 24, 25, 26, 27, 28, 29, 30, 31}.post_attention_layernorm.weight | UNEXPECTED |  | \n"}
+,{"stream_name":"stderr","time":54.867839359,"data":"model.language_model.layers.{22, 24, 25, 26, 28, 29, 30}.linear_attn.in_proj_z.weight                | UNEXPECTED |  | \n"}
+,{"stream_name":"stderr","time":54.867843198,"data":"model.language_model.layers.{22, 24, 25, 26, 28, 29, 30}.linear_attn.in_proj_b.weight                | UNEXPECTED |  | \n"}
+,{"stream_name":"stderr","time":54.867847212,"data":"model.language_model.layers.{22, 23, 24, 25, 26, 27, 28, 29, 30, 31}.input_layernorm.weight          | UNEXPECTED |  | \n"}
+,{"stream_name":"stderr","time":54.867864171,"data":"model.language_model.layers.{22, 24, 25, 26, 28, 29, 30}.linear_attn.in_proj_qkv.weight              | UNEXPECTED |  | \n"}
+,{"stream_name":"stderr","time":54.867868395,"data":"model.language_model.layers.{22, 23, 24, 25, 26, 27, 28, 29, 30, 31}.mlp.down_proj.weight            | UNEXPECTED |  | \n"}
+,{"stream_name":"stderr","time":54.867872131,"data":"model.language_model.layers.{22, 24, 25, 26, 28, 29, 30}.linear_attn.A_log                           | UNEXPECTED |  | \n"}
+,{"stream_name":"stderr","time":54.867876028,"data":"model.language_model.layers.{22, 24, 25, 26, 28, 29, 30}.linear_attn.norm.weight                     | UNEXPECTED |  | \n"}
+,{"stream_name":"stderr","time":54.867879881,"data":"model.language_model.layers.{22, 23, 24, 25, 26, 27, 28, 29, 30, 31}.mlp.gate_proj.weight            | UNEXPECTED |  | \n"}
+,{"stream_name":"stderr","time":54.867883535,"data":"model.language_model.layers.{22, 24, 25, 26, 28, 29, 30}.linear_attn.in_proj_a.weight                | UNEXPECTED |  | \n"}
+,{"stream_name":"stderr","time":54.867887175,"data":"model.language_model.layers.{22, 24, 25, 26, 28, 29, 30}.linear_attn.dt_bias                         | UNEXPECTED |  | \n"}
+,{"stream_name":"stderr","time":54.86789086,"data":"model.language_model.layers.{23, 27, 31}.self_attn.v_proj.weight                                     | UNEXPECTED |  | \n"}
+,{"stream_name":"stderr","time":54.867894656,"data":"model.language_model.layers.{23, 27, 31}.self_attn.k_proj.weight                                     | UNEXPECTED |  | \n"}
+,{"stream_name":"stderr","time":54.867898448,"data":"model.language_model.layers.{23, 27, 31}.self_attn.k_norm.weight                                     | UNEXPECTED |  | \n"}
+,{"stream_name":"stderr","time":54.867903252,"data":"model.language_model.layers.{22, 24, 25, 26, 28, 29, 30}.linear_attn.conv1d.weight                   | UNEXPECTED |  | \n"}
+,{"stream_name":"stderr","time":54.867906968,"data":"model.language_model.layers.{22, 24, 25, 26, 28, 29, 30}.linear_attn.out_proj.weight                 | UNEXPECTED |  | \n"}
+,{"stream_name":"stderr","time":54.867910783,"data":"model.language_model.layers.{23, 27, 31}.self_attn.o_proj.weight                                     | UNEXPECTED |  | \n"}
+,{"stream_name":"stderr","time":54.867914465,"data":"model.language_model.layers.{22, 23, 24, 25, 26, 27, 28, 29, 30, 31}.mlp.up_proj.weight              | UNEXPECTED |  | \n"}
+,{"stream_name":"stderr","time":54.867918287,"data":"model.language_model.layers.{23, 27, 31}.self_attn.q_proj.weight                                     | UNEXPECTED |  | \n"}
+,{"stream_name":"stderr","time":54.867921902,"data":"lm_head.weight                                                                                       | UNEXPECTED |  | \n"}
+,{"stream_name":"stderr","time":54.867925463,"data":"model.language_model.layers.{23, 27, 31}.self_attn.q_norm.weight                                     | UNEXPECTED |  | \n"}
+,{"stream_name":"stderr","time":54.867929235,"data":"\n"}
+,{"stream_name":"stderr","time":54.867932566,"data":"Notes:\n"}
+,{"stream_name":"stderr","time":54.867935932,"data":"- UNEXPECTED:\tcan be ignored when loading from different task/architecture; not ok if you expect identical arch.\n"}
+,{"stream_name":"stdout","time":54.984513989,"data":"loaded 23s\n"}
+,{"stream_name":"stdout","time":474.302232387,"data":"embedded 442s, nonfinite batches 0\n"}
+,{"stream_name":"stdout","time":546.429684575,"data":"qwen35-9b layer   1: OOF bal acc 0.3975  (515s)\n"}
+,{"stream_name":"stdout","time":628.316093549,"data":"qwen35-9b layer   2: OOF bal acc 0.4149  (596s)\n"}
+,{"stream_name":"stdout","time":711.675682283,"data":"qwen35-9b layer   3: OOF bal acc 0.4215  (680s)\n"}
+,{"stream_name":"stdout","time":797.897655495,"data":"qwen35-9b layer   4: OOF bal acc 0.4064  (766s)\n"}
+,{"stream_name":"stdout","time":889.99571176,"data":"qwen35-9b layer   5: OOF bal acc 0.4019  (858s)\n"}
+,{"stream_name":"stdout","time":973.702335321,"data":"qwen35-9b layer   6: OOF bal acc 0.4052  (942s)\n"}
+,{"stream_name":"stdout","time":1038.444661021,"data":"qwen35-9b layer   7: OOF bal acc 0.3860  (1007s)\n"}
+,{"stream_name":"stdout","time":1092.201615092,"data":"qwen35-9b layer   8: OOF bal acc 0.3575  (1060s)\n"}
+,{"stream_name":"stdout","time":1148.904915779,"data":"qwen35-9b layer   9: OOF bal acc 0.3560  (1117s)\n"}
+,{"stream_name":"stdout","time":1198.878689981,"data":"qwen35-9b layer  10: OOF bal acc 0.3486  (1167s)\n"}
+,{"stream_name":"stdout","time":1246.514898357,"data":"qwen35-9b layer  11: OOF bal acc 0.3541  (1215s)\n"}
+,{"stream_name":"stdout","time":1295.38367451,"data":"qwen35-9b layer  12: OOF bal acc 0.3493  (1264s)\n"}
+,{"stream_name":"stdout","time":1358.399690605,"data":"qwen35-9b layer  13: OOF bal acc 0.3630  (1327s)\n"}
+,{"stream_name":"stdout","time":1414.142666272,"data":"qwen35-9b layer  14: OOF bal acc 0.3808  (1382s)\n"}
+,{"stream_name":"stdout","time":1482.456693708,"data":"qwen35-9b layer  15: OOF bal acc 0.3930  (1451s)\n"}
+,{"stream_name":"stdout","time":1540.160183572,"data":"qwen35-9b layer  16: OOF bal acc 0.3986  (1508s)\n"}
+,{"stream_name":"stdout","time":1605.452397661,"data":"qwen35-9b layer  17: OOF bal acc 0.4227  (1574s)\n"}
+,{"stream_name":"stdout","time":1674.56470706,"data":"qwen35-9b layer  18: OOF bal acc 0.4234  (1643s)\n"}
+,{"stream_name":"stdout","time":1748.040667511,"data":"qwen35-9b layer  19: OOF bal acc 0.4086  (1716s)\n"}
+,{"stream_name":"stdout","time":1808.5357912,"data":"qwen35-9b layer  20: OOF bal acc 0.3738  (1777s)\n"}
+,{"stream_name":"stdout","time":1880.294739936,"data":"qwen35-9b layer  21: OOF bal acc 0.3689  (1848s)\n"}
+,{"stream_name":"stdout","time":1949.725682559,"data":"qwen35-9b layer  22: OOF bal acc 0.3778  (1918s)\n"}
+,{"stream_name":"stdout","time":1949.72639628,"data":"best [(18, 0.4234), (17, 0.4227), (3, 0.4215), (2, 0.4149), (19, 0.4086)]\n"}
+,{"stream_name":"stderr","time":1957.300790149,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":1957.300821787,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":1957.561271733,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":1957.561311482,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":1958.410730989,"data":"[NbConvertApp] Converting notebook __script__.ipynb to html\n"}
+,{"stream_name":"stderr","time":1959.451131198,"data":"[NbConvertApp] Writing 303888 bytes to __results__.html\n"}
+]

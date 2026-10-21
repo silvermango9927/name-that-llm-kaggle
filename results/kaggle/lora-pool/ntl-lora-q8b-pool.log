@@ -1,0 +1,54 @@
+[{"stream_name":"stdout","time":3.048153764,"data":"Found existing installation: torchao 0.10.0\n"}
+,{"stream_name":"stdout","time":3.04819978,"data":"Uninstalling torchao-0.10.0:\n"}
+,{"stream_name":"stdout","time":3.048205449,"data":"  Successfully uninstalled torchao-0.10.0\n"}
+,{"stream_name":"stdout","time":3.048209824,"data":"\n"}
+,{"stream_name":"stdout","time":9788.289564928,"data":"--- worker 0\n"}
+,{"stream_name":"stdout","time":9788.298136771,"data":"[transformers] \u001b[1mQwen3Model LOAD REPORT\u001b[0m from: /kaggle/input/models/qwen-lm/qwen-3/transformers/8b-base/1\n"}
+,{"stream_name":"stdout","time":9788.298148365,"data":"[transformers] `use_cache=True` is incompatible with gradient checkpointing. Setting `use_cache=False`.\n"}
+,{"stream_name":"stdout","time":9788.298151806,"data":"[full] ep 0 loss 2.2897 (4827s)\n"}
+,{"stream_name":"stdout","time":9788.298154671,"data":"[full] ep 1 loss 1.0975 (9672s)\n"}
+,{"stream_name":"stdout","time":9788.298157366,"data":"worker done\n"}
+,{"stream_name":"stdout","time":9788.298160119,"data":"model.layers.{24...35}.self_attn.k_norm.weight         | UNEXPECTED |  | \n"}
+,{"stream_name":"stdout","time":9788.298162934,"data":"model.layers.{24...35}.self_attn.v_proj.weight         | UNEXPECTED |  | \n"}
+,{"stream_name":"stdout","time":9788.298165836,"data":"model.layers.{24...35}.mlp.gate_proj.weight            | UNEXPECTED |  | \n"}
+,{"stream_name":"stdout","time":9788.298168582,"data":"model.layers.{24...35}.self_attn.q_proj.weight         | UNEXPECTED |  | \n"}
+,{"stream_name":"stdout","time":9788.298171337,"data":"model.layers.{24...35}.mlp.down_proj.weight            | UNEXPECTED |  | \n"}
+,{"stream_name":"stdout","time":9788.298174119,"data":"model.layers.{24...35}.self_attn.q_norm.weight         | UNEXPECTED |  | \n"}
+,{"stream_name":"stdout","time":9788.298176942,"data":"model.layers.{24...35}.self_attn.k_proj.weight         | UNEXPECTED |  | \n"}
+,{"stream_name":"stdout","time":9788.298179714,"data":"lm_head.weight                                         | UNEXPECTED |  | \n"}
+,{"stream_name":"stdout","time":9788.298182469,"data":"\n"}
+,{"stream_name":"stdout","time":9788.298190375,"data":"Notes:\n"}
+,{"stream_name":"stdout","time":9788.298193258,"data":"- UNEXPECTED:\tcan be ignored when loading from different task/architecture; not ok if you expect identical arch.\n"}
+,{"stream_name":"stdout","time":9788.298196188,"data":"[transformers] `use_cache=True` is incompatible with gradient checkpointing. Setting `use_cache=False`.\n"}
+,{"stream_name":"stdout","time":9788.298199035,"data":"[full] ep 0 loss 2.2897 (4827s)\n"}
+,{"stream_name":"stdout","time":9788.298201722,"data":"[full] ep 1 loss 1.0975 (9672s)\n"}
+,{"stream_name":"stdout","time":9788.298204478,"data":"worker done\n"}
+,{"stream_name":"stdout","time":9788.298215009,"data":"--- worker 1\n"}
+,{"stream_name":"stdout","time":9788.298217929,"data":"[transformers] \u001b[1mQwen3Model LOAD REPORT\u001b[0m from: /kaggle/input/models/qwen-lm/qwen-3/transformers/8b-base/1\n"}
+,{"stream_name":"stdout","time":9788.298220852,"data":"[transformers] `use_cache=True` is incompatible with gradient checkpointing. Setting `use_cache=False`.\n"}
+,{"stream_name":"stdout","time":9788.29822367,"data":"[0] ep 0 loss 2.3694 (4621s) val bal_acc 0.4185\n"}
+,{"stream_name":"stdout","time":9788.298226384,"data":"[0] ep 1 loss 1.1250 (9346s) val bal_acc 0.4852\n"}
+,{"stream_name":"stdout","time":9788.298229155,"data":"worker done\n"}
+,{"stream_name":"stdout","time":9788.298231816,"data":"model.layers.{24...35}.mlp.down_proj.weight            | UNEXPECTED |  | \n"}
+,{"stream_name":"stdout","time":9788.298234675,"data":"model.layers.{24...35}.mlp.up_proj.weight              | UNEXPECTED |  | \n"}
+,{"stream_name":"stdout","time":9788.298247562,"data":"model.layers.{24...35}.self_attn.k_proj.weight         | UNEXPECTED |  | \n"}
+,{"stream_name":"stdout","time":9788.298250086,"data":"model.layers.{24...35}.self_attn.k_norm.weight         | UNEXPECTED |  | \n"}
+,{"stream_name":"stdout","time":9788.298252282,"data":"model.layers.{24...35}.mlp.gate_proj.weight            | UNEXPECTED |  | \n"}
+,{"stream_name":"stdout","time":9788.298254532,"data":"model.layers.{24...35}.self_attn.q_proj.weight         | UNEXPECTED |  | \n"}
+,{"stream_name":"stdout","time":9788.298256713,"data":"model.layers.{24...35}.post_attention_layernorm.weight | UNEXPECTED |  | \n"}
+,{"stream_name":"stdout","time":9788.298258894,"data":"lm_head.weight                                         | UNEXPECTED |  | \n"}
+,{"stream_name":"stdout","time":9788.298261081,"data":"\n"}
+,{"stream_name":"stdout","time":9788.298263239,"data":"Notes:\n"}
+,{"stream_name":"stdout","time":9788.298265367,"data":"- UNEXPECTED:\tcan be ignored when loading from different task/architecture; not ok if you expect identical arch.\n"}
+,{"stream_name":"stdout","time":9788.298267654,"data":"[transformers] `use_cache=True` is incompatible with gradient checkpointing. Setting `use_cache=False`.\n"}
+,{"stream_name":"stdout","time":9788.298269927,"data":"[0] ep 0 loss 2.3694 (4621s) val bal_acc 0.4185\n"}
+,{"stream_name":"stdout","time":9788.298272155,"data":"[0] ep 1 loss 1.1250 (9346s) val bal_acc 0.4852\n"}
+,{"stream_name":"stdout","time":9788.298274331,"data":"worker done\n"}
+,{"stream_name":"stdout","time":9788.298276429,"data":"total 9780s\n"}
+,{"stream_name":"stderr","time":9790.918732693,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":9790.918758534,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":9791.203975484,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":9791.203998777,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":9792.585261398,"data":"[NbConvertApp] Converting notebook __script__.ipynb to html\n"}
+,{"stream_name":"stderr","time":9793.476741905,"data":"[NbConvertApp] Writing 297225 bytes to __results__.html\n"}
+]

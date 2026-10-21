@@ -1,0 +1,64 @@
+[{"stream_name":"stdout","time":4.161235439,"data":"Found existing installation: torchao 0.10.0\n"}
+,{"stream_name":"stdout","time":4.161303113,"data":"Uninstalling torchao-0.10.0:\n"}
+,{"stream_name":"stdout","time":4.161310523,"data":"  Successfully uninstalled torchao-0.10.0\n"}
+,{"stream_name":"stdout","time":4.161314806,"data":"\n"}
+,{"stream_name":"stdout","time":7392.820443895,"data":"--- worker 0\n"}
+,{"stream_name":"stdout","time":7392.830471918,"data":"[transformers] \u001b[1mQwen3Model LOAD REPORT\u001b[0m from: /kaggle/input/models/qwen-lm/qwen-3/transformers/8b-base/1\n"}
+,{"stream_name":"stdout","time":7392.830490795,"data":"[transformers] `use_cache=True` is incompatible with gradient checkpointing. Setting `use_cache=False`.\n"}
+,{"stream_name":"stdout","time":7392.830494835,"data":"[2] ep 0 loss 2.9829 (1144s) val bal_acc 0.3204\n"}
+,{"stream_name":"stdout","time":7392.830498361,"data":"[2] ep 1 loss 1.4840 (2356s) val bal_acc 0.4593\n"}
+,{"stream_name":"stdout","time":7392.830501626,"data":"[2] ep 2 loss 0.6402 (3570s) val bal_acc 0.5204\n"}
+,{"stream_name":"stdout","time":7392.83050491,"data":"[transformers] \u001b[1mQwen3Model LOAD REPORT\u001b[0m from: /kaggle/input/models/qwen-lm/qwen-3/transformers/8b-base/1\n"}
+,{"stream_name":"stdout","time":7392.830508516,"data":"[4] ep 0 loss 2.9123 (1142s) val bal_acc 0.3352\n"}
+,{"stream_name":"stdout","time":7392.83051176,"data":"[4] ep 1 loss 1.4731 (2347s) val bal_acc 0.4598\n"}
+,{"stream_name":"stdout","time":7392.830514933,"data":"[4] ep 2 loss 0.6031 (3556s) val bal_acc 0.4966\n"}
+,{"stream_name":"stdout","time":7392.83051817,"data":"worker done\n"}
+,{"stream_name":"stdout","time":7392.830521529,"data":"model.layers.{24...35}.self_attn.q_norm.weight         | UNEXPECTED |  | \n"}
+,{"stream_name":"stdout","time":7392.830524818,"data":"model.layers.{24...35}.self_attn.v_proj.weight         | UNEXPECTED |  | \n"}
+,{"stream_name":"stdout","time":7392.830528121,"data":"model.layers.{24...35}.mlp.down_proj.weight            | UNEXPECTED |  | \n"}
+,{"stream_name":"stdout","time":7392.830531374,"data":"model.layers.{24...35}.self_attn.k_proj.weight         | UNEXPECTED |  | \n"}
+,{"stream_name":"stdout","time":7392.830534896,"data":"model.layers.{24...35}.self_attn.q_proj.weight         | UNEXPECTED |  | \n"}
+,{"stream_name":"stdout","time":7392.83053849,"data":"model.layers.{24...35}.self_attn.o_proj.weight         | UNEXPECTED |  | \n"}
+,{"stream_name":"stdout","time":7392.830542098,"data":"lm_head.weight                                         | UNEXPECTED |  | \n"}
+,{"stream_name":"stdout","time":7392.830545318,"data":"model.layers.{24...35}.mlp.gate_proj.weight            | UNEXPECTED |  | \n"}
+,{"stream_name":"stdout","time":7392.83054859,"data":"\n"}
+,{"stream_name":"stdout","time":7392.830551689,"data":"Notes:\n"}
+,{"stream_name":"stdout","time":7392.830554848,"data":"- UNEXPECTED:\tcan be ignored when loading from different task/architecture; not ok if you expect identical arch.\n"}
+,{"stream_name":"stdout","time":7392.830558366,"data":"[4] ep 0 loss 2.9123 (1142s) val bal_acc 0.3352\n"}
+,{"stream_name":"stdout","time":7392.830561649,"data":"[4] ep 1 loss 1.4731 (2347s) val bal_acc 0.4598\n"}
+,{"stream_name":"stdout","time":7392.830564875,"data":"[4] ep 2 loss 0.6031 (3556s) val bal_acc 0.4966\n"}
+,{"stream_name":"stdout","time":7392.830568106,"data":"worker done\n"}
+,{"stream_name":"stdout","time":7392.830582561,"data":"--- worker 1\n"}
+,{"stream_name":"stdout","time":7392.83058582,"data":"[transformers] \u001b[1mQwen3Model LOAD REPORT\u001b[0m from: /kaggle/input/models/qwen-lm/qwen-3/transformers/8b-base/1\n"}
+,{"stream_name":"stdout","time":7392.830589214,"data":"[transformers] `use_cache=True` is incompatible with gradient checkpointing. Setting `use_cache=False`.\n"}
+,{"stream_name":"stdout","time":7392.830606173,"data":"[3] ep 0 loss 2.9826 (972s) val bal_acc 0.3481\n"}
+,{"stream_name":"stdout","time":7392.830610232,"data":"[3] ep 1 loss 1.4904 (2004s) val bal_acc 0.4519\n"}
+,{"stream_name":"stdout","time":7392.830613989,"data":"[3] ep 2 loss 0.6160 (3039s) val bal_acc 0.4852\n"}
+,{"stream_name":"stdout","time":7392.830618095,"data":"[transformers] \u001b[1mQwen3Model LOAD REPORT\u001b[0m from: /kaggle/input/models/qwen-lm/qwen-3/transformers/8b-base/1\n"}
+,{"stream_name":"stdout","time":7392.830622338,"data":"[full] ep 0 loss 2.8446 (1229s)\n"}
+,{"stream_name":"stdout","time":7392.830714964,"data":"[full] ep 1 loss 1.4421 (2448s)\n"}
+,{"stream_name":"stdout","time":7392.830721435,"data":"[full] ep 2 loss 0.5803 (3672s)\n"}
+,{"stream_name":"stdout","time":7392.830726155,"data":"worker done\n"}
+,{"stream_name":"stdout","time":7392.830730171,"data":"model.layers.{24...35}.self_attn.k_norm.weight         | UNEXPECTED |  | \n"}
+,{"stream_name":"stdout","time":7392.830734171,"data":"model.layers.{24...35}.mlp.down_proj.weight            | UNEXPECTED |  | \n"}
+,{"stream_name":"stdout","time":7392.830743198,"data":"model.layers.{24...35}.mlp.up_proj.weight              | UNEXPECTED |  | \n"}
+,{"stream_name":"stdout","time":7392.830745901,"data":"model.layers.{24...35}.self_attn.q_norm.weight         | UNEXPECTED |  | \n"}
+,{"stream_name":"stdout","time":7392.830748687,"data":"model.layers.{24...35}.self_attn.o_proj.weight         | UNEXPECTED |  | \n"}
+,{"stream_name":"stdout","time":7392.830751352,"data":"model.layers.{24...35}.post_attention_layernorm.weight | UNEXPECTED |  | \n"}
+,{"stream_name":"stdout","time":7392.830753972,"data":"model.layers.{24...35}.self_attn.k_proj.weight         | UNEXPECTED |  | \n"}
+,{"stream_name":"stdout","time":7392.830756569,"data":"model.layers.{24...35}.self_attn.q_proj.weight         | UNEXPECTED |  | \n"}
+,{"stream_name":"stdout","time":7392.830759178,"data":"\n"}
+,{"stream_name":"stdout","time":7392.830761604,"data":"Notes:\n"}
+,{"stream_name":"stdout","time":7392.830764197,"data":"- UNEXPECTED:\tcan be ignored when loading from different task/architecture; not ok if you expect identical arch.\n"}
+,{"stream_name":"stdout","time":7392.830767192,"data":"[full] ep 0 loss 2.8446 (1229s)\n"}
+,{"stream_name":"stdout","time":7392.830769674,"data":"[full] ep 1 loss 1.4421 (2448s)\n"}
+,{"stream_name":"stdout","time":7392.830772158,"data":"[full] ep 2 loss 0.5803 (3672s)\n"}
+,{"stream_name":"stdout","time":7392.830774849,"data":"worker done\n"}
+,{"stream_name":"stdout","time":7392.830777372,"data":"total 7380s\n"}
+,{"stream_name":"stderr","time":7396.560668144,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":7396.560714665,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":7396.990791598,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":7396.990836175,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":7399.2692649910005,"data":"[NbConvertApp] Converting notebook __script__.ipynb to html\n"}
+,{"stream_name":"stderr","time":7400.442703461,"data":"[NbConvertApp] Writing 292255 bytes to __results__.html\n"}
+]

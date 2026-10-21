@@ -1,0 +1,29 @@
+{
+ "id": "abhayganti09/ntl-v7-twins",
+ "title": "ntl-v7-twins",
+ "code_file": "main.py",
+ "language": "python",
+ "kernel_type": "script",
+ "is_private": true,
+ "enable_gpu": true,
+ "enable_internet": false,
+ "dataset_sources": [
+  "abdullah1afify/ntl-generations",
+  "bbucxi/qwen35-9b-safetensors",
+  "keshavatearth/ntl-gpt-new-prompts-v1",
+  "prvsiyan/ntl-own-prompt-generations-v1",
+  "seyitkaangunes/ntl-extra-api-passages"
+ ],
+ "competition_sources": [
+  "name-that-llm"
+ ],
+ "kernel_sources": [
+  "abhayganti09/ntl-feat-qwen3-8b",
+  "abhayganti09/ntl-feat-qwen35-9b",
+  "abhayganti09/ntl-lora-q8b"
+ ],
+ "model_sources": [
+  "qwen-lm/qwen-3/transformers/8b-base/1"
+ ],
+ "machine_shape": "NvidiaTeslaT4"
+}
